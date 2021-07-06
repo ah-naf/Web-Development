@@ -38,7 +38,12 @@
      color: white;
      font-weight: 200;
      font-family: 'menlo';
-     font-size: 0.6rem;
+     font-size: 0.8rem;
+ }
+ 
+ .name span {
+     font-weight: 1000;
+     font-size: 18px;
  }
  
  .container {
