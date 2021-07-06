@@ -1,0 +1,157 @@
+ @font-face {
+     font-family: 'menlo';
+     src: url('Menlo-Regular.woff') format('woff');
+ }
+ 
+ * {
+     margin: 0;
+ }
+ 
+ .secondary-container,
+ .name,
+ .example {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .name,
+ .example {
+     flex-direction: column;
+     width: 20vw;
+     background-color: black;
+ }
+ 
+ .name {
+     align-items: flex-start;
+     margin: 10px 50px;
+     justify-content: flex-start;
+     background-color: white;
+ }
+ 
+ .example {
+     display: block;
+     padding: 1rem;
+ }
+ 
+ .example p {
+     color: white;
+     font-weight: 200;
+     font-family: 'menlo';
+     font-size: 0.6rem;
+ }
+ 
+ .container {
+     flex-direction: column;
+ }
+ 
+ .topic {
+     position: absolute;
+     border: 2px solid black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 200px;
+     left: 70px;
+     top: 140px;
+ }
+ 
+ ul {
+     list-style: none;
+     padding-left: 0;
+ }
+ 
+ .first {
+     font-style: normal;
+     font-weight: 600;
+ }
+ 
+ li {
+     padding: .5rem 1rem;
+     font-family: 'Ubuntu', sans-serif;
+     color: black;
+     font-weight: 400;
+     font-style: italic;
+     font-size: 18px;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ h3 {
+     font-family: 'Otomanopee One', sans-serif;
+     margin: 30px 0 15px 0;
+     font-size: 1rem;
+ }
+ 
+ p {
+     font-family: 'Noto Sans JP', sans-serif;
+     color: black;
+     font-weight: 400;
+     font-size: 18px;
+ }
+ 
+ nav {
+     position: -webkit-sticky;
+     position: sticky;
+     top: 0px;
+     text-align: center;
+     font-family: 'Lobster', cursive;
+     font-size: 2.5rem;
+     z-index: 2;
+     background-color: white;
+ }
+ 
+ .properties {
+     color: #F05454;
+ }
+ 
+ .text {
+     color: #3A9679;
+ }
+ 
+ .name p {
+     font-size: 15px;
+ }
+ 
+ .extra {
+     color: #BECBFF;
+ }
+ 
+ .selector {
+     color: #CD4439;
+ }
+ 
+ hr {
+     border: dotted #000 5px;
+     border-bottom: none;
+     width: 5%;
+     margin: 30px auto;
+ }
+ 
+ .bottom-container {
+     background-color: white;
+     padding: 50px 0 20px;
+     text-align: center;
+ }
+ 
+ .footer-link {
+     color: black;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bolder;
+     margin: 10px 20px;
+     text-decoration: none;
+ }
+ 
+ .footer-link:hover,
+ ul a:hover {
+     color: #EAF6F6;
+ }
+ 
+ .copyright {
+     color: black;
+     font-size: 0.75rem;
+     padding: 20px 0;
+ }

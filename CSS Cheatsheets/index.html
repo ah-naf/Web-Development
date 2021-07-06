@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cheatsheets</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <h1>CSS Cheatsheets</h1>
+    </nav>
+    <div class="container">
+        <div class="topic">
+
+            <ul>
+                <li class="first">Topic</li>
+                <li>
+                    <a href="#visual">Visual Rules</a>
+                </li>
+                <li>
+                    <a href="#box">The Box Model</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Visual Rules -->
+        <div class="secondary-container">
+            <div class="name">
+                <h3>Font Size</h3>
+                <p>The <span>font-size</span> CSS property is used to set text sizes. Font size values can be many different units or types such as pixels.</p>
+            </div>
+
+            <div class="example">
+                <p class="p">
+                    <span class="properties">font-size: </span>
+                    <span class="text">30px;</span>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="secondary-container">
+            <div class="name">
+                <h3>Background Color</h3>
+                <p>The <span>background-color</span> CSS property controls the background color of elements.</p>
+            </div>
+
+            <div class="example">
+                <p class="p">
+                    <span class="properties">background-color: </span>
+                    <span class="text">blue;</span>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="secondary-container">
+            <div class="name">
+                <h3>Opacity</h3>
+                <p>The <span>opacity</span> CSS property can be used to control the transparency of an element. The value of this property ranges from 0 (transparent) to 1 (opaque).</p>
+            </div>
+
+            <div class="example">
+                <p class="p">
+                    <span class="properties">opacity: </span>
+                    <span class="text">0.5;</span>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="secondary-container">
+            <div class="name">
+                <h3>Font Weight</h3>
+                <p>The <span>font-weight</span> CSS property can be used to set the weight (boldness) of text. The provided value can be a keyword such as bold or normal.</p>
+            </div>
+
+            <div class="example">
+                <p class="p">
+                    <span class="properties">font-weight: </span>
+                    <span class="text">bold;</span>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="secondary-container">
+            <div class="name">
+                <h3>Text Align</h3>
+                <p>The <span>text-align</span> CSS property can be used to set the text alignment of inline contents. This property can be set to these values: left, right, or center.</p>
+            </div>
+
+            <div class="example">
+                <p class="p">
+                    <span class="properties">text-align: </span>
+                    <span class="text">center;</span>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="secondary-container">
+            <div class="name">
+                <h3>Background Image</h3>
+                <p>The <span>background-image</span> CSS property sets the background image of an element. An image URL should be provided in the syntax url("moon.jpg") as the value of the property.</p>
+            </div>
+
+            <div class="example">
+                <p class="p">
+                    <span class="properties">background-image: </span>
+                    <span class="text">url(</span><span class="extra">"nyan-cat.gif"</span><span class="text">)</span>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="secondary-container" id="box">
+            <div class="name">
+                <h3>Font Family</h3>
+                <p>The <span>font-family</span> CSS property is used to specify the typeface in a rule set. Fonts must be available to the browser to display correctly, either on the computer or linked as a web font. If a font value is not available, browsers
+                    will display their default font. When using a multi-word font name, it is best practice to wrap them in quotes.</p>
+            </div>
+
+            <div class="example">
+                <p class="p">
+                    <span class="properties">font-family: </span>
+                    <span class="text">Verdana;</span>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <!-- Box Model -->
+        <div class="secondary-container">
+            <div class="name">
+                <h3>CSS Margin Collapse</h3>
+                <p>CSS margin collapse occurs when the top and bottom margins of blocks are combined into a single margin equal to the largest individual block margin. Margin collapse only occurs with vertical margins, not for horizontal margins.</p>
+            </div>
+
+            <div class="example">
+                <p class="p">
+                    <p>/* The vertical margins will collapse to 30 pixels instead of adding to 50 pixels. */ <br>
+                        <span class="selector">.block one {<br></span>
+                        <span>&nbsp;&nbsp;</span>
+                        <span class="properties">margin:</span>
+                        <span class="text">20px;<br></span>
+                        <span class="selector">}</span><br><br>
+                        <span class="selector">.block two {<br></span>
+                        <span>&nbsp;&nbsp;</span>
+                        <span class="properties">margin:</span>
+                        <span class="text">30px;<br></span>
+                        <span class="selector">}</span>
+                    </p>
+
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="secondary-container">
+            <div class="name">
+                <h3>CSS auto keyword</h3>
+                <p>The value <span>auto</span> can be used with the property margin to horizontally center an element within its container. The margin property will take the width of the element and will split the rest of the space equally between the left
+                    and right margins.</p>
+            </div>
+
+            <div class="example">
+                <p class="p">
+                    <span class="selector">div {<br></span>
+                    <span>&nbsp;&nbsp;</span>
+                    <span class="properties">margin:</span>
+                    <span class="text">auto;<br></span>
+                    <span class="selector">}</span>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="secondary-container">
+            <div class="name">
+                <h3>Dealing with overflow</h3>
+                <p>If content is too large for its container, the CSS <span>overflow</span> property will determine how the browser handles the problem. <br>By default, it will be set to visible and the content will take up extra space. It can also be set
+                    to hidden, or to scroll, which will make the overflowing content accessible via scroll bars within the original container.</p>
+            </div>
+
+            <div class="example">
+                <p class="p">
+                    <span class="selector">small-block {<br></span>
+                    <span>&nbsp;&nbsp;</span>
+                    <span class="properties">overflow:</span>
+                    <span class="text">scroll;<br></span>
+                    <span class="selector">}</span>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="secondary-container">
+            <div class="name">
+                <h3>Height and Width Maximums/Minimums</h3>
+                <p>CSS margin collapse occurs when the top and bottom margins of blocks are combined into a single margin equal to the largest individual block margin. Margin collapse only occurs with vertical margins, not for horizontal margins.</p>
+            </div>
+
+            <div class="example">
+                <p class="p">
+                    <p>/* Any element with class "column" will be at most 200 pixels wide, despite the width property value of 500 pixels. */ <br><br>
+                        <span class="selector">.column {<br></span>
+                        <span>&nbsp;&nbsp;</span>
+                        <span class="properties">max-width:</span>
+                        <span class="text">200px;<br></span>
+                        <span>&nbsp;&nbsp;</span>
+                        <span class="properties">width:</span>
+                        <span class="text">500px;<br></span>
+                        <span class="selector">}</span>
+                    </p>
+
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="secondary-container">
+            <div class="name">
+                <h3>The visibility Property</h3>
+                <p>The CSS<span>visibility</span> property is used to render hidden objects invisible to the user, without removing them from the page. This ensures that the page structure and organization remain unchanged.</p>
+            </div>
+
+            <div class="example">
+                <p class="p">
+                    <span class="selector">.invisible-element {<br></span>
+                    <span>&nbsp;&nbsp;</span>
+                    <span class="properties">visibility:</span>
+                    <span class="text">hidden;<br></span>
+                    <span class="selector">}</span>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="secondary-container">
+            <div class="name">
+                <h3>Box-sizing of CSS box model</h3>
+                <p>The CSS box model is a box that wraps around an HTML element and controls the design and layout. The property <span>visibility</span> controls which aspect of the box is determined by the height and width properties. The default value
+                    of this property is content-box, which renders the actual size of the element including the content box; but not the paddings and borders. The value border-box, on the other hand, renders the actual size of an element including the
+                    content box, paddings, and borders.</p>
+            </div>
+
+            <div class="example">
+                <p class="p">
+                    <span class="selector">.container {<br></span>
+                    <span>&nbsp;&nbsp;</span>
+                    <span class="properties">box-sizing:</span>
+                    <span class="text">border-box;<br></span>
+                    <span class="selector">}</span>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="secondary-container">
+            <div class="name">
+                <h3>CSS box-sizing: border-box</h3>
+                <p>The value border-box of the <span>box-sizing</span> property for an element corresponds directly to the element’s total rendered size, including padding and border with the height and width properties. <br> The default value of the border-box
+                    property is content-box. The value border-box is recommended when it is necessary to resize the padding and border but not just the content. For instance, the value border-box calculates an element’s height as follows: height = content
+                    height + padding + border.</p>
+            </div>
+
+            <div class="example">
+                <p class="p">
+                    <span class="selector">#box-example {<br></span>
+                    <span>&nbsp;&nbsp;</span>
+                    <span class="properties">box-sizing:</span>
+                    <span class="text">border-box;<br></span>
+                    <span class="selector">}</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/ahnafhasan144">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.Github.com/ah-naf">Github</a>
+        <p class="copyright">© 2021 Ahnaf.</p>
+    </div>
+</body>
+
+</html>
