@@ -1,0 +1,395 @@
+nav {
+    z-index: 100;
+}
+
+li a {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Otomanopee One', sans-serif;
+    margin-right: 20px;
+}
+
+body {
+    background-color: #f4f1ea;
+}
+
+.heading-big {
+    display: none;
+}
+
+.banner-img {
+    width: 100%;
+    height: 220px;
+    background: url("https://cdn.shopify.com/s/files/1/0057/8492/t/6/assets/MK2_Hero.jpg?v=13360709788415021665") center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.heading h2 {
+    font-size: 1.6rem;
+    padding-top: 12px;
+    font-family: 'Staatliches', cursive;
+}
+
+.heading button {
+    font-family: 'Otomanopee One', sans-serif;
+    color: white;
+    margin-bottom: 15px;
+    background-color: #034752;
+    max-width: 360px;
+    padding: 10px;
+    font-size: 0.8rem;
+    border: 0;
+}
+
+.product {
+    background-color: #f4f1ea;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-we-make {
+    font-size: 1rem;
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 25%;
+    margin: 20px auto;
+}
+
+.product-img {
+    background-color: #f4f1ea;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.mark {
+    background-color: #f4f1ea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mark img {
+    border-radius: 50%;
+    border: 5px solid #000;
+    width: 220px;
+    height: 220px;
+    margin-top: 10px;
+}
+
+.mark hr {
+    width: 7%;
+    margin: 0;
+    border: 1px solid #000;
+}
+
+.mark h3 {
+    font-family: 'Otomanopee One', sans-serif;
+    padding: 5px 0;
+}
+
+.mark p {
+    max-width: 280px;
+}
+
+.mark .six {
+    margin-bottom: 30px;
+}
+
+.last-container {
+    background: url("https://cdn.shopify.com/s/files/1/0057/8492/t/6/assets/about-us-header-2.jpg?v=16744646490268075441") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
+    background-color: rgba(4, 49, 59, .8);
+    margin: 20px auto;
+    text-align: center;
+}
+
+.circle p {
+    max-width: 240px;
+    font-size: 16px;
+    color: white;
+    margin-left: 17px;
+}
+
+.circle img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
+
+.contact-us {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.contact-list {
+    margin-top: 70px;
+}
+
+.contact-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-us li {
+    margin-bottom: 10px;
+    color: #87bfcc;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.follow-us h4 {
+    margin-top: 50px;
+}
+
+h4 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-us a {
+    text-decoration: none;
+    color: #87bfcc;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+label {
+    color: grey;
+    max-width: 550px;
+    font-size: 15px;
+}
+
+input {
+    background-color: #000;
+    border: 2px solid #414042;
+    height: 45px;
+    width: 50%;
+}
+
+.newsletter button {
+    background-color: #87bfcc;
+    margin-left: 10px;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 5%;
+}
+
+footer {
+    background-color: black;
+    color: grey;
+    padding: 20px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright p {
+    margin: 3rem 0 0 0;
+}
+
+.footer-link {
+    text-align: center;
+}
+
+span {
+    margin: 0 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: grey;
+}
+
+.foolink:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+@media (min-width: 720px) {
+    .why-we-make {
+        max-width: 500px;
+        font-size: 25px;
+    }
+    .last-container {
+        height: 500px;
+    }
+    .circle {
+        width: 400px;
+        height: 400px;
+    }
+    .circle img {
+        width: 150px;
+        height: 150px;
+    }
+    .circle p {
+        font-size: 22px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .mark h3 {
+        font-size: 25px;
+    }
+    .product-img {
+        display: grid;
+        grid-template: repeat(3, 1fr) /repeat(2, 1fr);
+        grid-auto-flow: row;
+    }
+    .one {
+        grid-area: 1/1/2/2;
+    }
+    .two {
+        grid-area: 1/2/2/3;
+    }
+    .three {
+        grid-area: 2/1/3/2;
+    }
+    .four {
+        grid-area: 2/2/3/3;
+    }
+    .five {
+        grid-area: 3/1/4/2;
+    }
+    .six {
+        grid-area: 3/2/4/3;
+    }
+    .contact-list {
+        display: grid;
+        grid-template: 1fr / repeat(2, 1fr);
+    }
+    .follow-us h4 {
+        margin: 0;
+    }
+}
+
+@media (min-width: 1045px) {
+    .heading {
+        display: none;
+    }
+    .circle {
+        width: 500px;
+        height: 500px;
+    }
+    .circle p {
+        font-size: 30px;
+        max-width: 350px;
+    }
+    .why-we-make {
+        max-width: 700px;
+        font-size: 30px;
+    }
+    .banner-img {
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading-big {
+        display: block;
+    }
+    .heading-big h2 {
+        color: black;
+        font-size: 54px;
+        max-width: 700px;
+    }
+    .heading-big button {
+        font-family: 'Otomanopee One', sans-serif;
+        color: white;
+        margin-bottom: 15px;
+        background-color: #034752;
+        max-width: 360px;
+        padding: 10px;
+        font-size: 0.8rem;
+        border: 0;
+    }
+}
+
+@media (min-width:1300px) {
+    .product-img {
+        display: grid;
+        grid-template: repeat(2, 1fr) /repeat(3, 1fr);
+        grid-auto-flow: row;
+    }
+    .one {
+        grid-area: 1/1/2/2;
+    }
+    .two {
+        grid-area: 1/2/2/3;
+    }
+    .three {
+        grid-area: 1/3/2/4;
+    }
+    .four {
+        grid-area: 2/1/3/2;
+    }
+    .five {
+        grid-area: 2/2/3/3;
+    }
+    .six {
+        grid-area: 2/3/3/4;
+    }
+    .contact-list {
+        margin: 0;
+        margin-left: 50px;
+    }
+    .follow-us {
+        margin-left: 50px;
+    }
+    .follow-us li {
+        margin-top: 10px;
+    }
+    .contact-us {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    label {
+        max-width: 400px;
+        margin-bottom: 5px;
+    }
+    input {
+        width: 50%;
+    }
+}
