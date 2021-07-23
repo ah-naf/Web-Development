@@ -1,3 +1,3 @@
 # Adhoc (Codecademy Project)
 
-## Visit this <a href="https://rawcdn.githack.com/ah-naf/Codecademy-Adhoc/571dbc0c76cab24cf391a4068500a5cc42e5217c/index.html">Link</a> to preview.
+## Visit this <a href="https://rawcdn.githack.com/ah-naf/Web-Development/d0ba32a67998eba4f3ef0a80a57d0dc93690af76/Codecademy%20Adhoc%20Master/index.html">Link</a> to preview.
