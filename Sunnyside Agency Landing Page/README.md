@@ -1,6 +1,6 @@
 # Frontend Mentor - Sunnyside agency landing page
 
-![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
+[Design preview for the Sunnyside agency landing page coding challenge](https://rawcdn.githack.com/ah-naf/Web-Development/d0317b218cacfdf022f362f3d7d93dd459a5370f/Sunnyside%20Agency%20Landing%20Page/index.html)
 
 ## Welcome! 👋
 
